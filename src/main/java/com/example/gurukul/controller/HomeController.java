@@ -54,7 +54,7 @@ public class HomeController {
             int number = rnd.nextInt(999999);
             otp = String.format("%06d", number);
             Email email = new Email();
-            emailService.sendEmail((String) map.get("email"), email.getHead2(), email.getMsg1(otp));
+            //emailService.sendEmail((String) map.get("email"), email.getHead2(), email.getMsg1(otp));
         } else {
             Student student = new Student();
             student.setId((String) map.get("id"));
