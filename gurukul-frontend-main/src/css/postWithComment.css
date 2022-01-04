@@ -1,0 +1,113 @@
+/* Container div */
+#container {
+  color: black;
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container:hover {
+  transition: box-shadow 0.8s ease;
+  box-shadow: 5px 5px #66bfbf;
+}
+
+/* Header Div */
+header {
+  height: 3.5rem;
+  padding-right: 0.5rem;
+  white-space: nowrap;
+  display: flex;
+}
+
+/* h3 tag for header */
+h3 {
+  font-size: 1rem;
+}
+
+/* header img (Dummy GLA image */
+header img {
+  margin-right: 1.5rem;
+}
+
+/* header date content p tag */
+header p {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+/* Main Started */
+
+#mainContentDiv {
+  display: block;
+  overflow: hidden;
+  margin-top: 1.4rem;
+}
+
+/* Lower Div */
+
+#lowerDivForPost {
+  padding: 15px 5px 15px 0px;
+  border-radius: 8px;
+  width: 20rem;
+  border: 1px solid gray;
+  margin-top: 1.2rem;
+  display: flex;
+}
+
+#lowerDivForPost:hover {
+  color: green;
+  font-size: 1.2rem;
+  border: 1px solid #66bfbf;
+  transition: font-size 0.8s ease;
+}
+
+#mainSubDiv {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid gray;
+}
+
+footer {
+  display: flex;
+}
+
+#lowerDivForPost img {
+  margin: 0 1.2rem 0 1.2rem;
+}
+
+#image-rightDiv p {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+footer {
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid #66bfbf;
+  border-radius: 10px;
+  padding: 1.2rem;
+}
+
+#footerLeftDiv img {
+  border-radius: 20px;
+}
+
+#footerRigthDiv {
+  display: flex;
+  width: 90%;
+  margin-left: 2rem;
+}
+
+#footerRigthDiv textarea {
+  min-height: 3rem;
+  padding: 1rem;
+  box-shadow: 1px 1px blueviolet;
+  width: 90%;
+  border-radius: 10px;
+}
+
+#footerRigthDiv textarea:hover {
+  border: 2.5px solid #66bfbf;
+  transition: border 0.8s ease;
+}

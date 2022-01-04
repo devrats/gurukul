@@ -1,0 +1,49 @@
+#parent-head {
+  border-bottom: 1px solid green;
+  width: 70vw;
+}
+
+.head-section {
+  color: green;
+  font-size: 2.7rem;
+}
+
+.info {
+  color: gray;
+  margin-left: 0.6rem;
+}
+
+.marks {
+  margin-left: 0.6rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+#content-container {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+.image-div1 {
+  height: 100%;
+  width: 30%;
+  margin-right: 1.9rem;
+}
+
+#CommentDiv textarea {
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 2px 2px #66bfbf;
+}
+
+#CommentDiv textarea:hover {
+  border: 2px solid #66bfbf;
+  transition: border 1s ease;
+}
